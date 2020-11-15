@@ -1,0 +1,64 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "date": "12-26-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "2",
+      "date": "12-26-2018",
+      "dropoff": "Juventus, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "3",
+      "date": "12-26-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "4",
+      "date": "12-26-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "5",
+      "date": "12-26-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "6",
+      "date": "12-26-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "7",
+      "date": "12-26-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "8",
+      "date": "12-25-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "9",
+      "date": "12-25-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    },
+    {
+      "id": "10",
+      "date": "12-25-2018",
+      "dropoff": "Rome, Italy",
+      "pickup": "Paris, France"
+    }
+  ]
+}

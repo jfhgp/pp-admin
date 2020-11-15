@@ -1,0 +1,46 @@
+.chat-main-container {
+    height: 100%;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column; }
+    .chat-main-container .chat-title-bar div {
+      text-align: left;
+      font-size: 1.5rem; }
+    .chat-main-container .chat-title-bar button {
+      width: unset;
+      background: none; }
+      .chat-main-container .chat-title-bar button svg {
+        color: #ccc;
+        float: right; }
+    .chat-main-container .chat-container div {
+      background-color: #ebebeb; }
+      .chat-main-container .chat-container div .left-chat {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start; }
+      .chat-main-container .chat-container div .right-chat {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-end; }
+    .chat-main-container .send-message {
+      margin: 0.5em;
+      border-radius: 5px;
+      padding: 0.3em 0.6em; }
+      .chat-main-container .send-message div {
+        display: flex;
+        align-items: center; }
+        .chat-main-container .send-message div button {
+          width: unset;
+          background: none; }
+          .chat-main-container .send-message div button svg {
+            float: right; }
+  
+  #chat-container div::-webkit-scrollbar {
+    width: 6px;
+    background-color: transparent; }
+  
+  #chat-container div::-webkit-scrollbar-thumb {
+    background-color: #152972;
+    border-radius: 10px; }

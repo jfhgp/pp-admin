@@ -1,0 +1,10 @@
+/* Place your extensions here to make migration to a new release easier. */
+
+
+.input-range__label {
+    color: #000000;
+}
+
+.input-range__track {
+    background: rgb(234, 118, 39)
+}

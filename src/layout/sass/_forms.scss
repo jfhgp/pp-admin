@@ -1,0 +1,85 @@
+.form-select-drop-down {
+  display: flex;
+  width: unset !important;
+  margin-top: 5px;
+}
+
+.form-select-input {
+  display: flex;
+  width: 100%;
+}
+
+.form-date-input {
+  width: 100%;
+
+  & > input {
+    display: flex;
+    width: 100%;
+  }
+
+  & > button {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+
+.form-error > div {
+  & > input {
+    border: 1px solid red !important;
+  }
+  & > span:first-child {
+    border: 1px solid red !important;
+    border-right: unset !important;
+  }
+  & > span:last-child {
+    border: 1px solid red !important;
+    border-left: unset !important;
+  }
+  & > textarea {
+    border: 1px solid red !important;
+  }
+}
+
+.login-form-error {
+  & > input {
+    border: 1px solid red !important;
+  }
+  & > span:first-child {
+    border: 1px solid red !important;
+    border-right: unset !important;
+  }
+  & > span:last-child {
+    border: 1px solid red !important;
+    border-left: unset !important;
+  }
+}
+
+.form-date-error > div > span {
+  & > input {
+    border: 1px solid red !important;
+  }
+
+  & > button {
+    border: 1px solid red !important;
+    border-left: unset !important;
+    border-radius: 3px !important;
+  }
+}
+
+.form-select-error > div {
+  border: 1px solid red !important;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #fff inset;
+  border-radius: 5px;
+}
